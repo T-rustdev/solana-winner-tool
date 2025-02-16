@@ -113,7 +113,7 @@ $ net/scp.sh solana@"$NET_VALIDATOR0_IP":solana/config/faucet-keypair.json .
 ```
 1. Optionally set Slack and Discord webhook env vars to be notified of progress
 ```bash
-export SLACK_WEBHOOK=https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
+export SLACK_WEBHOOK=https://hooks.slack.com/services/<>
 export DISCORD_WEBHOOK=https://discordapp.com/api/webhooks/<ID>/<TOKEN>
 ```
 1. Wait for all validators to connect to the cluster
